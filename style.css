@@ -779,7 +779,7 @@ button:hover {
   gap: 16px; }
   .header__repair::before {
     content: '';
-    background-image: url("/img/divider.svg");
+    background-image: url("img/divider.svg");
     display: inline-block;
     width: 2px;
     height: 32px;
@@ -819,7 +819,7 @@ button:hover {
     top: 0;
     width: 100%;
     height: 100%;
-    background-image: url("/img/highlight.svg");
+    background-image: url("img/highlight.svg");
     background-repeat: no-repeat; }
   .title-copy__title {
     font-weight: 700;
@@ -918,7 +918,7 @@ button:hover {
     width: 150px; }
     .text__button::before {
       content: '';
-      background-image: url("/img/expand.svg");
+      background-image: url("img/expand.svg");
       display: inline-block;
       width: 24px;
       height: 24px;
@@ -1163,7 +1163,7 @@ button:hover {
     position: relative; }
   .description__offer::after {
     content: '';
-    background-image: url("/img/more.svg");
+    background-image: url("img/more.svg");
     background-repeat: no-repeat;
     width: 24px;
     height: 28px;
@@ -1231,7 +1231,8 @@ button:hover {
   display: none;
   font-family: 'TTLakes', sans-serif;
   position: fixed;
-  box-shadow: 16px 0 52px 0 #0E185033, -2px 0px 4px 0px #454F7E05;
+  box-shadow: 16px 0 52px 0 #0E185033,
+ -2px 0px 4px 0px #454F7E05;
   top: 0;
   z-index: 2;
   padding: 16px 24px 32px;
@@ -1280,7 +1281,7 @@ button:hover {
   left: -24px;
   width: 100%;
   height: 100%;
-  background-image: url("/img/highlight.svg");
+  background-image: url("img/highlight.svg");
   background-repeat: no-repeat;
   background-size: 4px 32px; }
 
@@ -1349,7 +1350,8 @@ button:hover {
   right: 0;
   height: 100%;
   z-index: 3;
-  box-shadow: -16px 0 52px 0 #0E185033, -2px 0px 4px 0px #454F7E05; }
+  box-shadow: -16px 0 52px 0 #0E185033,
+ -2px 0px 4px 0px #454F7E05; }
   .modal-call__title {
     margin-top: 40px;
     margin-left: 0;
@@ -1364,7 +1366,7 @@ button:hover {
     top: -5px;
     width: 100%;
     height: 100%;
-    background-image: url("/img/highlight.svg");
+    background-image: url("img/highlight.svg");
     background-repeat: no-repeat; }
   .modal-call__field {
     border: 1px solid var(--grey-border);
@@ -1381,7 +1383,7 @@ button:hover {
   .modal-call__link {
     color: var(--pink-text); }
   .modal-call input[type="submit"] {
-    background: url("/img/send.svg");
+    background: url("img/send.svg");
     background-position: right;
     background-repeat: no-repeat;
     height: 32px;
@@ -1425,7 +1427,8 @@ button:hover {
   right: 0;
   height: 100%;
   z-index: 3;
-  box-shadow: -16px 0 52px 0 #0E185033, -2px 0px 4px 0px #454F7E05; }
+  box-shadow: -16px 0 52px 0 #0E185033,
+ -2px 0px 4px 0px #454F7E05; }
   .modal-chat__title {
     margin-top: 40px;
     margin-left: 0;
@@ -1440,7 +1443,7 @@ button:hover {
     top: -5px;
     width: 100%;
     height: 100%;
-    background-image: url("/img/highlight.svg");
+    background-image: url("img/highlight.svg");
     background-repeat: no-repeat; }
   .modal-chat__field {
     border: 1px solid var(--grey-border);
@@ -1460,7 +1463,7 @@ button:hover {
   .modal-chat__link {
     color: var(--pink-text); }
   .modal-chat input[type="submit"] {
-    background: url("/img/send.svg");
+    background: url("img/send.svg");
     background-position: right;
     background-repeat: no-repeat;
     height: 32px;
